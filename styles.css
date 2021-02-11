@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações para computadores */
+@media only screen and (min-width: 769px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: lightskyblue;
+        height:100vh;
+        width: 100vw;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(foto.jpg);
+        background-size: 100%;
+        max-width: 100%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    
+    #titulo {
+        text-shadow: 0px 0px 5px white;
+    }
+
+    #coluna1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-top: 0;
+    }
+
+    #coluna2 {
+        width: 50%;
+    }
+
+    #brasao {
+        max-height: 70%;
+        max-width: 30%;
+        align-items: center;
+    }
+
+    #descricao {
+        text-align: center;
+        margin: 1%;
+    }
+
+    nav {
+        width: 50%;
+        text-align: center;
+    }
+
+    .botao {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 6%;
+        height: 50px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+}
+
+/* Configurações para celular  e tablet*/
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: lightskyblue;
+        height:100vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(foto.jpg);
+        background-size: 100%;
+        max-width: 100%;
+        margin: 1%;
+    }
+    
+    #titulo {
+        text-shadow: 0px 0px 5px white;
+    }
+
+    #brasao {
+        max-height: 70%;
+        max-width: 30%;
+        align-items: center;
+    }
+
+    #descricao {
+        text-align: center;
+        margin: 1%;
+    }
+
+    nav {
+        border-style: solid;
+        border-width: 1px;
+        width: 98%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .botao {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 6%;
+        height: 50px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+}
