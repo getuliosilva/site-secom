@@ -46,7 +46,6 @@
         min-height: 100vh;
         margin-left: 51vw;
         overflow: visible;
-        padding: 10px;
     }
 
     #titulo {
@@ -95,57 +94,71 @@
     body {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        font-family: Inter, sans-serif;
         background-color: #00378b;
-        height:100vh;
+        height: 100vh;
     }
 
-    header {
+    #img-div {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-image: url(foto.jpg);
-        background-size: 100%;
-        max-width: 100%;
-        margin: 1%;
-    }
-    
-    #titulo {
-        text-shadow: 0px 0px 5px white;
+        height: 30vh;
+        width: 100vw;
+        background-image: url("foto.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #brasao {
-        max-height: 70%;
-        max-width: 30%;
-        align-items: center;
+        object-fit: scale-down;
+        max-height: 100%;
     }
 
-    #descricao {
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        flex: 1 0 auto;
+    }
+
+    #titulo {
         text-align: center;
-        margin: 1%;
+        color: azure;
+        margin-top: 10px;
+        font-size: large;
     }
 
     nav {
-        border-style: solid;
-        border-width: 1px;
-        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
         text-align: center;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
     }
 
     .botao {
-        background-color: white;
+        color: #00378b;
+        background-color: azure;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 6%;
-        height: 50px;
+        height: auto;
+        min-height: 50px;
         text-decoration: none;
         text-align: center;
+        border-radius: 10px;
+        word-break: break-all;
     }
 
     footer {
         margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
