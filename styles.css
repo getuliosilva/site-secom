@@ -16,24 +16,25 @@
         flex-direction: row;
         font-family: Inter, sans-serif;
         background-color: #00378b;
-        width: 99vw;
+        width: 100vw;
     }
 
     #img-div {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        width: 50vw;
+        width: 40vw;
         overflow: hidden;
-        background-image: url("foto.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: white;
         position: fixed;
     }
 
+    #lacuna {
+        width: 40vw;
+    }
+
     #brasao {
-        max-width: 100%;
+        max-width: 80%;
         margin: auto;
     }
 
@@ -41,10 +42,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 50vw;
+        width: 60vw;
         height: auto;
-        min-height: 100vh;
-        margin-left: 51vw;
         overflow: visible;
     }
 
@@ -81,12 +80,7 @@
         border-radius: 10px;
         word-break: break-all;
     }
-
-    footer {
-        margin-top: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 }
 
 /* Configurações para celular  e tablet*/
@@ -102,25 +96,24 @@
     #img-div {
         display: flex;
         flex-direction: column;
+        background-color: white;
         height: 30vh;
         width: 100vw;
-        background-image: url("foto.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        position: fixed;
     }
 
     #brasao {
         object-fit: scale-down;
-        max-height: 100%;
+        height: 90%;
+        width: 90%;
+        margin: auto;
     }
 
     #conteudo {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100vw;
-        flex: 1 0 auto;
+        margin-top: 30vh;
     }
 
     #titulo {
