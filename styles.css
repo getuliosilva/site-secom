@@ -82,6 +82,18 @@
     .mensagem {
         color: azure;
     }
+
+    .redirect {
+        text-align: center;
+        color: azure;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .whitebg {
+        background-color: white;
+    }
     
 }
 
@@ -149,6 +161,10 @@
         text-align: center;
         border-radius: 10px;
         word-break: break-all;
+    }
+
+    .mensagem {
+        color: azure;
     }
 
     footer {
